@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+    color: white;
+    background-color: rgb(164, 0, 115);
+    width: 100%;
+   
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: absolute;
+    top: 0px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin-top: 100px;
+}
+
+th, td {
+    text-align: center;
+}
+
+table {
+    color:white;
+    background-color: black;
+    width: 250px;
+    height: 250px;
+}
+
+img {
+    width: 200px;
+    border-radius: 20%;
+}
+
+td {
+    height: fit-content;
+    font-size: 13px;
+}
+
+
